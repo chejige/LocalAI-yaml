@@ -2,6 +2,5 @@ name: bge-reranker
 backend: rerankers
 parameters:
   model: cross-encoder
-  diffusers:
-    pipeline_type: zh
+  pipeline_type: zh
   
