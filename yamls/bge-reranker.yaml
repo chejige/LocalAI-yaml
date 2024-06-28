@@ -1,5 +1,7 @@
-name: bge-large
-backend: sentencetransformers
-embeddings: true
+name: bge-reranker
+backend: rerankers
 parameters:
-  model: BAAI/bge-large-en-v1.5
+  model: cross-encoder
+  diffusers:
+    pipeline_type: zh
+  
