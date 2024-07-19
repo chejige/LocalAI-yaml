@@ -1,0 +1,5 @@
+name: mxbai-rerank-large-v1
+
+backend: rerankers
+parameters:
+  model: mixedbread-ai/mxbai-rerank-large-v1
