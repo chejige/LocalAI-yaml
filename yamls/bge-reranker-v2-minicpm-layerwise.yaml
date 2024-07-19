@@ -1,0 +1,5 @@
+name: bge-reranker-v2-minicpm-layerwise
+
+backend: rerankers
+parameters:
+  model: BAAI/bge-reranker-v2-minicpm-layerwise

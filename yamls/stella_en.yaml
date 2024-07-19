@@ -1,0 +1,5 @@
+name: stella_en
+backend: sentencetransformers
+embeddings: true
+parameters:
+  model: dunzhang/stella_en_1.5B_v5
